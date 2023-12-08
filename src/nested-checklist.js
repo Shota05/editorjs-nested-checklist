@@ -88,7 +88,7 @@ export default class NestedList {
     /**
      * This list-style will be used by default
      */
-    this.defaultListStyle = 'ordered';
+    this.defaultListStyle = 'none';
 
     const initialData = {
       style: this.defaultListStyle,
