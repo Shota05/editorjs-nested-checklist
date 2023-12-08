@@ -1,9 +1,9 @@
 {
-  "name": "@Shota05/editorjs-nested-checklist",
+  "name": "@shota05/editorjs-nested-checklist",
   "description": "Nested Checklists, for EditorJS Test",
   "version": "1.1.0",
 
-  "author": "Shota05",
+  "author": "shota05",
   "repository": "https://github.com/Shota05/editorjs-nested-checklist",
   "license": "MIT",
 
