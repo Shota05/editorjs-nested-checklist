@@ -92,7 +92,7 @@ export default class NestedList {
 
     const initialData = {
       style: this.defaultListStyle,
-       items: [{ content: '', items: [], checked: false }],
+      items: [],
     };
 
     this.data = data && Object.keys(data).length ? data : initialData;
