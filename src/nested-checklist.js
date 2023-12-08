@@ -92,7 +92,7 @@ export default class NestedList {
 
     const initialData = {
       style: this.defaultListStyle,
-      items: [],
+       items: [{ content: '', items: [], checked: false }],
     };
 
     this.data = data && Object.keys(data).length ? data : initialData;
@@ -217,7 +217,7 @@ export default class NestedList {
    * @param {boolean} checked - if the item is checked null/false/true
    * @returns {Element}
    */
-  createItem(content, items = [], checked) {
+  createItem(content, items = [], checked = false) {
     // console.log("Creating Item")
     const itemWrapper = Dom.make('li', this.CSS.item);
     const itemBody = Dom.make('div', this.CSS.itemBody);
